@@ -1,0 +1,32 @@
+Описание таблицы customer_20240101:
+
+customer_id		id клиента
+first_name 		имя клиента
+last_name 		фамилия клиента
+gender 			пол
+DOB 			дата рождения
+job_title 		профессия
+job_industry_category	сфера деятельности
+wealth_segment 		сегмент благосостояния
+deceased_indicator 	флаг актуального клиента
+owns_car 		флаг наличия автомобиля
+address 		адрес проживания
+postcode 		почтовый индекс
+state 			штаты
+country 		страна проживания
+property_valuation	оценка имущества
+
+Описание таблицы transaction_20240101:
+
+transaction_id		id транзакции
+product_id		id продукта
+customer_id		id клиента
+transaction_date	дата транзакции
+online_order		флаг онлайн-заказа
+order_status		статус транзакции
+brand			бренд
+product_line		линейка продуктов
+product_class		класс продукта
+product_size		размер продукта
+list_price		цена
+standard_cost		стандартная стоимость
